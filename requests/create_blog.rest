@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ikp1a1BlayIsImlkIjoiNjJjNTg4Yzc1Njg3MmNhZmYwZGIxYzgxIiwiaWF0IjoxNjU3MTc2NzMxfQ.GC8yQGJ-SVHZXqPPFJZRLsEaj9q3ZkwyvIQPtFGfNkI
+
+{
+  "title": "Kettu blog",
+  "author": "Aku Tuhkanen",
+  "url": "http://blog.kettu.fi",
+  "likes": 555
+}
